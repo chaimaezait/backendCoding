@@ -90,3 +90,5 @@ run it from root directory
  you can specify the number of trending repo(either 100 or something else ) in swagger ui
 ## what was missed
 - The list of repos using the language
+## RESULT
+the result will be logged in console 

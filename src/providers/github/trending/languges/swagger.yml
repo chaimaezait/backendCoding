@@ -11,7 +11,7 @@ paths:
           description: The search query
           type: string
           required: true
-          default: YY-MM-DD
+          default: "2020-05-18"
           in: query
         - name: pagination
           description: number of scroll.

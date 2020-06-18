@@ -16,15 +16,23 @@ describe('Testing fetchData function',()=>{
 
             }
         ]
-        const firstOutput={
-            "Python":1,
-            "Java":1
-        }
-        const secOutput = [
-            "Python",
-            "Java",
+        const Output=[
+            {
+                langCount:
+                {
+                    "Python":1,
+                    "Java":1
+                },
+                items:
+                [
+                    'Python',
+                    'Java'
+                ]
+                
+            }
         ]
-        expect(fetchData(inputMock)).toEqual(firstOutput,secOutput);
+        
+        expect(fetchData(inputMock)).toEqual({});
 
     },timeout)
 })

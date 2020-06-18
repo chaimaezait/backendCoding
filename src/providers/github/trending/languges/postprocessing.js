@@ -1,4 +1,3 @@
-//const input = require('./input')
 
 async function fetchData(input){
     let {id,node_id,name,full_name,language} = input
@@ -18,7 +17,14 @@ async function fetchData(input){
         }
 
     });
-console.log(langCount )
-console.log(items) ;
+// console.log(langCount )
+// console.log(items) ;
+let data =[];
+data.push({
+    langCount,
+    items
+})
+console.log(data)
+
 }
 module.exports = fetchData
