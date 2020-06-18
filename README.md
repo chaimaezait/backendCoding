@@ -90,5 +90,10 @@ run it from root directory
  you can specify the number of trending repo(either 100 or something else ) in swagger ui
 ## what was missed
 - The list of repos using the language
+### getting-error-nodemon-internal-watch-failed-watch-enospc
+use this cmd line 
+```bash
+echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+```
 ## RESULT
 the result will be logged in console 

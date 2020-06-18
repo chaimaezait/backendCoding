@@ -25,6 +25,7 @@ data.push({
     items
 })
 console.log(data)
+return data
 
 }
 module.exports = fetchData
