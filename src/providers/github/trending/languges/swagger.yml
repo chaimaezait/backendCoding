@@ -1,0 +1,29 @@
+paths:
+  /github/trending/languges:
+    get:
+      description: fetching github api.
+      tags:
+        - Github
+      produces:
+        - application/json
+      parameters:
+        - name: listFrom
+          description: The search query
+          type: string
+          required: true
+          default: YY-MM-DD
+          in: query
+        - name: pagination
+          description: number of scroll.
+          type: string
+          default: "100"
+          in: query
+      responses:
+        200:
+          description: Array of fetched items.
+        206:
+          description: Page HTML structure or selectors changed.
+        408:
+          description: Timeout.
+        400:
+          description: Template or missing and wrong params.

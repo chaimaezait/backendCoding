@@ -1,0 +1,22 @@
+{
+    "swaggerDefinition": {
+      "swagger": "2.0",
+      "info": {
+        "title": "fetching trending languages from github repo",
+        "description": "this rest microservice will fetch data feom github api using node fetch module ",
+        "contact": {
+          "name": "ZAIT Chaimae",
+          "email": "zaitchaimae1997@gmail.com"
+        }
+      },
+      "schemes": [
+        "http",
+        "https"
+      ],
+      "basePath": "/api"
+    },
+    "apis": [
+      "./src/providers/**/swagger.yml"
+    ]
+  }
+  

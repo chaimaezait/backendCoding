@@ -1,0 +1,32 @@
+{
+  "name": "gemoscraper",
+  "version": "1.0.0",
+  "description": "this is a node js API that fetch data from a github repository",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "start:dev": "nodemon src/server.js",
+    "test:integration": "NODE_ENV=test jest -c jest.config.integration.js",
+    "test:unit": "NODE_ENV=test jest -c jest.config.unit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:chaimaezait/backend-coding-challenge.git"
+  },
+  "author": "ZAIT Chaimae",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "figlet": "^1.4.0",
+    "jest": "^26.0.1",
+    "node-fetch": "^2.6.0",
+    "supertest": "^4.0.2",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
