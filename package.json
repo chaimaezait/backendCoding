@@ -22,7 +22,7 @@
     "figlet": "^1.4.0",
     "jest": "^26.0.1",
     "jest-junit": "^10.0.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "supertest": "^4.0.2",
     "swagger-jsdoc": "^4.0.0",
     "swagger-ui-express": "^4.1.4"
